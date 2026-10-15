@@ -36,9 +36,6 @@
 		<Reference Include="$(RainWorldDir)/RainWorld_Data/Managed/Unity*.dll">
 			<Private>false</Private>
 		</Reference>
-		<Reference Include="CWStuff">
-		  <HintPath>..\..\..\.steam\steam\steamapps\workshop\content\312520\3232063592\newest\plugins\CWStuff.dll</HintPath>
-		</Reference>
 	</ItemGroup>
 
 	<ItemGroup>

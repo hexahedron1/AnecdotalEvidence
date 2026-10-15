@@ -303,6 +303,7 @@ public class TROracleBehavior : SSOracleBehavior {
     public bool sillyMode => Options.sillyMode.Value || player.SlugCatClass == MoreSlugcatsEnums.SlugcatStatsName.Sofanthiel;
     public int interest;
     public bool interested;
+    private SaveState saveState => ((StoryGameSession)oracle.room.game.session).saveState;
     void FiniteStateMachine(Room room) {
         if ((state == TROracleState.Idle && movementBehavior == MovementBehavior.Idle) ||
             state == TROracleState.InspectObject) {
@@ -449,13 +450,11 @@ public class TROracleBehavior : SSOracleBehavior {
                         if (stateTime == 1100) {
                             player.mainBodyChunk.vel += Custom.RNV() * 10f;
                             player.bodyChunks[1].vel += Custom.RNV() * 10f;
-                            ((StoryGameSession)oracle.room.game.session).saveState.deathPersistentSaveData.karmaCap = 9;
+                            saveState.deathPersistentSaveData.karmaCap = 9;
                             Bang(player.mainBodyChunk);
                             oracle.room.PlaySound(SoundID.SS_AI_Give_The_Mark_Boom, 0.0f, 1f, 1f);
-                            ((StoryGameSession)oracle.room.game.session).saveState.deathPersistentSaveData.karma =
-                                ((StoryGameSession)oracle.room.game.session).saveState.deathPersistentSaveData.karmaCap;
-                            ((StoryGameSession)oracle.room.game.session).saveState.deathPersistentSaveData.theMark =
-                                true;
+                            saveState.deathPersistentSaveData.karma = saveState.deathPersistentSaveData.karmaCap;
+                            saveState.deathPersistentSaveData.theMark = true;
                             player.AddFood(player.MaxFoodInStomach - player.FoodInStomach);
                         }
 
@@ -477,6 +476,67 @@ public class TROracleBehavior : SSOracleBehavior {
                     movementBehavior = MovementBehavior.Talk;
                     InitiateConvo(Conversations.TR_MeetWhite);
                     interest = 400;
+                }
+            } else if (stateProgress == 2 && conversation.slatedForDeletion) {
+                SwitchState(TROracleState.Idle);
+                oracle.room.game.GetStorySession.saveState.unrecognizedSaveStrings.Add("TR_MetPlayer");
+            }
+        } else if (state == TROracleState.FirstEncounter_Gourm) {
+            investigatePos = player.DangerPos;
+            if (stateProgress == 0) {
+                SetPalette(26, 23, Math.Min(1f, stateTime/20f));
+                movementBehavior = MovementBehavior.Investigate;
+                if (stateTime > 640) {
+                    stateProgress = 1;
+                }
+            } else if (stateProgress == 1) {
+                if (!playerEnteredWithMark) {
+                    movementBehavior = MovementBehavior.KeepDistance;
+                    if (stateTime > 800) {
+                        if (stateTime == 830) {
+                            room.PlaySound(SoundID.SS_AI_Give_The_Mark_Telekenisis, 0.0f, 1f, 1f);
+                        }
+
+                        if (stateTime is > 830 and < 1100) {
+                            Vector2 vector2 =
+                                Vector2.ClampMagnitude(oracle.room.MiddleOfTile(24, 14) - player.mainBodyChunk.pos,
+                                    40f) / 40f * (2.8f * Mathf.InverseLerp(30f, 160f, stateTime - 800));
+                            player.mainBodyChunk.vel += vector2;
+                        }
+
+                        if (stateTime < 1100) {
+                            player.Stun(20);
+                        }
+                        if (stateTime == 1100) {
+                            player.mainBodyChunk.vel += Custom.RNV() * 10f;
+                            player.bodyChunks[1].vel += Custom.RNV() * 10f;
+                            if (saveState.deathPersistentSaveData.karmaCap < 9) saveState.deathPersistentSaveData.karma++;
+                            if (saveState.deathPersistentSaveData.karmaCap == 6) saveState.deathPersistentSaveData.karmaCap = 7;
+                            Bang(player.mainBodyChunk);
+                            oracle.room.PlaySound(SoundID.SS_AI_Give_The_Mark_Boom, 0.0f, 1f, 1f);
+                            saveState.deathPersistentSaveData.karma = saveState.deathPersistentSaveData.karmaCap;
+                            saveState.deathPersistentSaveData.theMark = true;
+                            player.AddFood(player.MaxFoodInStomach - player.FoodInStomach);
+                        }
+
+                        if (stateTime > 1100) {
+                            ((PlayerGraphics)player.graphicsModule).markAlpha = Mathf.Max(
+                                ((PlayerGraphics)player.graphicsModule).markAlpha,
+                                Mathf.InverseLerp(500f, 300f, stateTime - 800));
+                        }
+
+                        if (stateTime == 1200) {
+                            stateProgress = 2;
+                            movementBehavior = MovementBehavior.Talk;
+                            InitiateConvo(Conversations.TR_MeetGourm);
+                            interest = 400;
+                        }
+                    }
+                } else if (stateTime == 800) {
+                    stateProgress = 2;
+                    movementBehavior = MovementBehavior.Talk;
+                    InitiateConvo(Conversations.TR_MeetGourm);
+                    interest = 600;
                 }
             } else if (stateProgress == 2 && conversation.slatedForDeletion) {
                 SwitchState(TROracleState.Idle);
@@ -508,10 +568,10 @@ public class TROracleBehavior : SSOracleBehavior {
 
             if (unknownCard && stateTime % 20 == 0) {
                 room.PlaySound(SoundID.SS_AI_Image, 0.0f, 1f, 1f);
-                trOracle.objectInfocard.currImg = existingInfocards["aiimg1_tr-err" + (stateTime%40 < 20 ? 2 : 1)];
+                trOracle.objectInfocard.currImg = existingInfocards["aiimg1_tr-err" + (stateTime%40 < 20 || !Options.infocardFlash.Value ? 2 : 1)];
             } else if (unknownPearlCard && stateTime % 20 == 0) {
                 room.PlaySound(SoundID.SS_AI_Image, 0.0f, 1f, 1f);
-                trOracle.objectInfocard.currImg = existingInfocards["aiimg1_tr_datapearl-err" + (stateTime%40 < 20 ? 2 : 1)];
+                trOracle.objectInfocard.currImg = existingInfocards["aiimg1_tr_datapearl-err" + (stateTime%40 < 20 || !Options.infocardFlash.Value ? 2 : 1)];
             }
             // ripped right from PebblesPearl lol
             if (interestingShit is SSOracleSwarmer swarmer) {
