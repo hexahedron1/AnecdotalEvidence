@@ -157,9 +157,11 @@ public class GateLight : UpdatableAndDeletable {
         };
         room.AddObject(light);
         room.AddObject(flatLight);
+        rainbow = Options.rainbowLight.Value && Random.Range(0, 100) < 50;
     }
     private readonly PlacedObject PlacedObject;
     private int t => room.game.timeInRegionThisCycle;
+    private bool rainbow;
     public override void Update(bool eu) {
         int cycleidx = t/10 % 4;
         base.Update(eu);
@@ -172,6 +174,10 @@ public class GateLight : UpdatableAndDeletable {
             _ => true
         };
         float noise = Random.value;
+        if (rainbow) {
+            light.color = Color.HSVToRGB((t%160)/160f, 1f, 1f);
+            flatLight.color = light.color;
+        }
         light.alpha = active ? Mathf.Lerp(data.Broken ? 0.3f : 0.65f, data.Broken ? 0.6f : 1f, noise) : 0f;
         light.rad = active ? Mathf.Lerp(data.Broken ? 60f : 95f, data.Broken ? 80f : 100f, noise) : 0f;
         flatLight.alpha = active ? Mathf.Lerp(data.Broken ? 0.1f : 0.325f, data.Broken ? 0.25f : 0.5f, noise) : 0f;
