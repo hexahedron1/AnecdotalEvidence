@@ -10,6 +10,7 @@ namespace TestIterator;
 public class Objects {
     public static void Register() {
         RegisterManagedObject<AreaSteamer, AreaSteamer.Data, ManagedRepresentation>("AreaSteamer", "Test Iterator");
+        RegisterManagedObject<GateLight, GateLight.Data, ManagedRepresentation>("GateLight", "Test Iterator");
     }
 }
 
@@ -132,5 +133,57 @@ public class AreaSteamer : UpdatableAndDeletable, IProvideWarmth {
         internal int Mult;
         [BooleanField("hazard", true, ManagedFieldWithPanel.ControlType.button, "Hazardous")]
         internal bool Hazard;
+    }
+}
+
+public class GateLight : UpdatableAndDeletable {
+    internal enum Mode {
+        Static,
+        Blink,
+        Cycle
+    }
+
+    public LightSource light;
+    public LightSource flatLight;
+    public GateLight(PlacedObject pobj, Room room) {
+        PlacedObject = pobj;
+        this.room = room;
+        light = new LightSource(pobj.pos, false, new Color(1f, 0.4f, 0.0f), this) {
+            affectedByPaletteDarkness = 0f
+        };
+        flatLight = new LightSource(pobj.pos, false, new Color(1f, 0.6f, 0.0f), this) {
+            affectedByPaletteDarkness = 0f,
+            flat = true
+        };
+        room.AddObject(light);
+        room.AddObject(flatLight);
+    }
+    private readonly PlacedObject PlacedObject;
+    private int t => room.game.timeInRegionThisCycle;
+    public override void Update(bool eu) {
+        int cycleidx = t/10 % 4;
+        base.Update(eu);
+        var data = (Data)PlacedObject.data;
+        light.pos = PlacedObject.pos;
+        flatLight.pos = PlacedObject.pos;
+        bool active = data.mode switch {
+            Mode.Blink => t % 40 < 20,
+            Mode.Cycle => data.CycleId == cycleidx,
+            _ => true
+        };
+        float noise = Random.value;
+        light.alpha = active ? Mathf.Lerp(data.Broken ? 0.3f : 0.65f, data.Broken ? 0.6f : 1f, noise) : 0f;
+        light.rad = active ? Mathf.Lerp(data.Broken ? 60f : 95f, data.Broken ? 80f : 100f, noise) : 0f;
+        flatLight.alpha = active ? Mathf.Lerp(data.Broken ? 0.1f : 0.325f, data.Broken ? 0.25f : 0.5f, noise) : 0f;
+        flatLight.rad = active ? Mathf.Lerp(data.Broken ? 12.5f : 19f, data.Broken ? 15f : 20f, noise) : 0f;
+    }
+
+    public class Data(PlacedObject obj) : ManagedData(obj, null) {
+        [EnumField<Mode>("mode", Mode.Static, displayName: "Mode")]
+        internal Mode mode;
+        [IntegerField("cycleid", 0, 3, 0, displayName: "Cycle order")]
+        internal int CycleId;
+        [BooleanField("broken", false, displayName: "Broken")]
+        internal bool Broken;
     }
 }

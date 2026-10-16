@@ -1,5 +1,4 @@
 Room Setting Templates: Wall, Wall-inside, Underhang, Interior, MemCon, Pipes, Archive, Intake, Intake-inside
-Subergion: Primary Power Rail
 Subregion: idfk lmao
 Subregion: The Facade
 Subregion: Exhaust System
@@ -10,6 +9,8 @@ Subregion: Cognitive Processing Core
 Subregion: Power Distribution Assembly
 Subregion: Archival Manifold
 Subregion: Intake system
+Subergion: Sprawling Streets
+Subregion: ???
 overseersColorOverride(0.3215686275, 1, 0.4705882353): 1
 inspectorColor: 0.3215686275, 1, 0.4705882353
 overseersMin: 5

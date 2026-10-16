@@ -9,9 +9,9 @@ rubbleStartDepth: 1.5
 rubbleEndDepth: 8
 curveRubbleDepth: 1.5
 atmosphereColor: 293B51
-daySky: Rf_Sky
-duskSky: Rf_DuskSky
-nightSky: Rf_NightSky
+daySky: atc_sky
+duskSky: atc_dusksky
+nightSky: atc_nightsky
 Floor: floor, -91, 26, 1, 12
 Smoke: 0, 562, 7, 2.5, 0.1, 0.8, False
 Smoke: 0, 0, 4.2, 0.2, 0.1, 0, True
