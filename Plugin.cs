@@ -8,7 +8,7 @@ using EffExt;
 [assembly: SecurityPermission(SecurityAction.RequestMinimum, SkipVerification = true)]
 #pragma warning restore CS0618
 
-namespace TestIterator;
+namespace AnecdotalEvidence;
 
 [BepInPlugin(GUID, Name, Version)]
 sealed class Plugin : BaseUnityPlugin
@@ -17,7 +17,7 @@ sealed class Plugin : BaseUnityPlugin
     private static bool IsInit;
     public const string GUID = "hexahedron1.testiterator";
     public const string Name = "Test iterator";
-    public const string Version = "0.3.20"; // TODO: version
+    public const string Version = "0.4.0"; // TODO: version
     public void OnEnable()
     {
         Logger = base.Logger;

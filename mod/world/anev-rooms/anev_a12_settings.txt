@@ -1,0 +1,8 @@
+DangerType: None
+CeilingDrips: 0
+Clouds: 0
+Palette: 30
+Effects: Flies-0-400-142, DayNight-1-442-30, AboveCloudsView-0-525-280, Darkness-0.1304348-20-20, 
+PlacedObjects: DayNightSettings><1283.843><378.9273><-159~109.6602~42~33, AirPocket><2022.302><223.2179><301~86~-70~314~N~38, LightBeam><1600.199><294.7698><-8~450~63~445~66~42~-48~-280~0.05217378~0~0~0~None~0~0, LightBeam><1414.627><292.1544><6~459~70~447~70~-3~-254~-271~0.05217378~0~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><178.5294><524.6978><0><1, OMNI><AM_IND-SuperStructure.ogg><68.60419><329.8869><0><1, OMNI><AM_ENV-WallHum.ogg><180.6273><421.0958><0><1, SPOT><AM_ENV-LightWind.ogg><711.6921><516.1943><0.6086956><1><1545.692><749.1943><146.6447><-340.3553><0><0.2413045, 
+FadePalette: 14, 0.4021739, 0.4021739

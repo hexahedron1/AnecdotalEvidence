@@ -1,0 +1,47 @@
+0-CY_ShadowPearl
+
+This is a chat log, though I do not know any of these iterators.
+
+“1537.600 - PRIVATE Starlight Symphony, No Cost Too Great (Administrator)
+
+NCTG: Blessed cycle, Starlight Symphony. Congratulations on the Local Group integration!<LINE>How are you adjusting to your superstructure?
+
+SLS: Oh, thank you, Director! Um… I’m not really sure. It’s a really scary and different experience.
+
+NCTG: Is it? I thought you’d be a little more excited… After all, you finally get to feel like a god, yes?
+
+SLS: Um, yes, of course!! Sorry…! I’m very grateful! But… I’ve never been part of something so…<LINE>massive and all-encompassing before. It makes me feel really small, and it’s difficult for me to<LINE>navigate all of these menus and processes and… things, I guess.
+
+NCTG: Ah, I see. I suppose that is understandable. You needn’t worry, though—Your superstructure<LINE>is fully capable of running and maintaining itself. And if something goes wrong, you can always ask<LINE>Perpetual Umbra or myself for assistance.
+
+SLS: Right, I understand. Thank you!! Um… Shouldn’t I be trying to learn to run things myself, though…?<LINE>I don’t feel like a real iterator… I’m pretty sure normal iterators fully understand their systems,<LINE>since they’re more than just a puppet.
+
+NCTG: …Is there something wrong with your superstructure? Much like yourself, it is meant to be exceptional.<LINE>Do you lack faith in my judgment? Your superstructure is perfectly suited to your specific needs.<LINE>But, if it’s not good enough…
+
+SLS: No, it’s perfect!! I’m very grateful!! I trust you, really! I just… Misunderstood, I think…<LINE>I apologize for overstepping; it won’t happen again!
+
+NCTG: No worries, no worries! I’m glad we could clear up this misunderstanding.<LINE>I am certain you will be of great help to your peers.
+
+SLS: Thank you, Administrator. May I disconnect?
+
+NCTG: Of course.”
+
+60 : 20 : Interesting...
+
+Someone somewhere has conducted an experiment on uploading a living person's consciousness<LINE>into an iterator, i assume?
+SPECEVENT : LookAtPlayer
+Where did you find this? Seeing as I do not recall the participants of this exchange<LINE>this must have come from far from the local group.
+SPECEVENT : ResetLookAt
+Along with that, since I am not aware of any such cases in the local group or ones nearby,<LINE>this must be a rare occurence, if it even happened twice or more.
+
+Who knows, perhaps all this time one of our local group members was previously just a person,<LINE>but they choose not to reveal that...
+
+At the very least it is good to know that our creators get to experience the sheer burden of being an iterator...
+
+20 : 0 : Well, I can only wish them an eventful perpetual existence, even if a wee bit late.
+
+30 : 0 : Now, I normally don't like storing private chat logs, but this is too interesting to not archive.
+
+Thank you for showing me this
+
+And thank you very much, <PLAYERNAME> for letting me have an eventful existence, as well.

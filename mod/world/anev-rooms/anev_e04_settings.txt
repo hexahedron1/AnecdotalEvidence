@@ -1,0 +1,4 @@
+Template: tr_settingstemplate_underhang
+Effects: LightRain-0.3043478-533-521, 
+PlacedObjects: LightFixture><304.2968><2596.761><RedLight~96.3205~6~12, LightFixture><71.85187><1673.562><RedLight~81.3205~4~48, LightFixture><552.7148><1168.998><RedLight~119.3205~7~85, LightFixture><55.80513><1240.999><RedLight~87.32053~6~9, LightFixture><78.91125><776.0199><RedLight~-137.6795~27~34, LightFixture><51.93303><173.0905><RedLight~54.32053~2~70, LightFixture><540.6929><560><RedLight~131.3205~12~95, LightFixture><86.7851><3020.549><RedLight~86.3205~3~77, LightFixture><36.36865><2170.001><RedLight~128.3205~-3~13, LightFixture><148.5532><1909.206><RedLight~-270.6795~-35~13, SteamPipe><112.4558><2224.797><141~1, SteamPipe><114.5415><1620.987><124~-1, DangleFruit><387.9359><1749.677><152.3057~180.5839~2~3, DangleFruit><216.9308><1784.943><-118~250~2~3, DangleFruit><487.2802><1779.432><-51~239~2~3, 
+FadePalette: 17, 0.8804348, 0.8913044, 0.8913044, 0.8913044

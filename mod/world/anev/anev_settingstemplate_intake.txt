@@ -1,0 +1,22 @@
+DangerType: FloodAndRain
+CeilingDrips: 0.5
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.75
+WaveLength: 0.5
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.3043478
+Grime: 0.5
+BkgDroneVolume: 0.3
+BkgDroneNoThreatVolume: 1
+RandomItemDensity: 0.5
+RandomItemSpearChance: 0.2
+WaterReflectionAlpha: 1
+Palette: 28
+EffectColorA: 14
+EffectColorB: 5
+Effects: RainSiren-1-318-65-songname:Moon_Siren, LightRain-0.5-30-30, CycleDrain-0.9021739-166-117, Fog-0.5-37-75,
+AmbientSounds: OMNI><MSC-StructureStrain.ogg><607.1594><483.9283><0.1413043><0.4326087, OMNI><AM_WAT-Sea01.ogg><115.9224><532.1843><0.25><1, OMNI><AM_RAIN-QuietThunder.ogg><200.9498><449.0088><0.1630435><1, OMNI><AM_ENV-Outside.ogg><351.8073><534.9464><0.5><1, OMNI><AM_ENV-NatWind.ogg><202.8437><364.8233><0.5><1, 
+FadePalette: 5

@@ -1,0 +1,10 @@
+Template: tr_settingstemplate_underhang
+DangerType: None
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Effects: ElectricDeath-0-30-30, 
+PlacedObjects: LightFixture><499.6655><338.437><RedLight~17.32051~-10~96, 
+FadePalette: 17, 0.8695652

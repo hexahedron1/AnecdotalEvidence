@@ -1,0 +1,17 @@
+Type: RoofTopView
+OffsetX: 0
+OffsetY: 0
+---------------
+floorLevel: 26
+origin: Null
+rubbleCount: 0
+rubbleStartDepth: 1.5
+rubbleEndDepth: 8
+curveRubbleDepth: 1.5
+atmosphereColor: 293B51
+daySky: Rf_Sky
+duskSky: Rf_DuskSky-Rivulet
+nightSky: Rf_NightSky
+Building: city1, -78, -93, 2, 3
+Building: city1, -246, -289, 4, 5
+Building: city1, -485, -455, 6, 8

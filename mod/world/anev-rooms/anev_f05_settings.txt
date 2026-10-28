@@ -1,0 +1,5 @@
+Template: tr_settingstemplate_intake
+Effects: GreenSparks-0.1195652-666-31, 
+PlacedObjects: CycleDrainMax><308.8414><1083.072><, CycleDrainMax><586.6014><1013.116><, CycleDrainMax><830.303><1042.443><, CycleDrainMax><1067.236><1073.199><, CycleDrainMax><1456.051><874.0148><, 
+Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>bm_sl_shore<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>480.6398<tB>456.857<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB>, 
+FadePalette: 5, 0.9239131, 0.7608696, 0.6413044

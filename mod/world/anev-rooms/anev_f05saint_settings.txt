@@ -1,0 +1,15 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.3099982
+WaveLength: 0.8166658
+WaveAmplitude: 0.03517328
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 30
+EffectColorA: 13
+EffectColorB: 6
+Effects: GreenSparks-0.1195652-666-31, Coldness-1-28-72, 
+PlacedObjects: CycleDrainMax><308.8414><1083.072><, CycleDrainMax><586.6014><1013.116><, CycleDrainMax><830.303><1042.443><, CycleDrainMax><1067.236><1073.199><, CycleDrainMax><1456.051><874.0148><, SuperSlope><101.8795><1258.848><1206~-110~58, SuperSlope><1301.339><1152.618><218~-43~53, SuperSlope><1327.414><1331.385><229~-43~56, SuperSlope><107.3247><1437.566><1202~-104~54, SuperSlope><338.0792><1586.684><522~-36~202, SuperSlope><244.1235><1630.595><66~-154~105, SnowSource><374.4499><1305.806><None~798~309~-58~-245.3975~0.7717391~1, SnowSource><1599.326><1133.599><Radial~-1487~232~50~86.60254~0.7717391~1, 
+FadePalette: 5, 0.6413044, 0.6413044, 0.6413044
+WetTerrain: OFF

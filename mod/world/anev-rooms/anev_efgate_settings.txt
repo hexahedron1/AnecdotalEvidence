@@ -1,0 +1,3 @@
+Template: tr_settingstemplate_underhang
+PlacedObjects: LightFixture><145.0504><340.7636><RedLight~-179.182~62.04135~92, LightFixture><800.0507><142.9885><RedLight~17.32051~-10~100, ElectricGateData><478.6509><581.3264><-474.1184~-280.5701~True~False~False~True~True~True~True~False~0~1~False~0~1~0.5, ExitSymbolHidden><732.9947><109.5256><, LightFixture><479.2073><406.3589><RedLight~-388.2426~-69.92145~54, 
+FadePalette: 17, 0.9021739

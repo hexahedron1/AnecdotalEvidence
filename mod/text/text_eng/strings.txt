@@ -1,0 +1,9 @@
+anecdotalevidence_infocardFlashOption|Object infocard flashing
+
+anecdotalevidence_sillyModeOption|Silly mode
+
+anecdotalevidence_sisyphusOption|Sisyphus prime
+
+anecdotalevidence_bombDetachmentOption|Bomb detachment
+
+anecdotalevidence_rainbowLightOption|Rainbow gate lamps

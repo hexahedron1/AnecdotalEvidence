@@ -1,0 +1,8 @@
+Template: tr_settingstemplate_intake-inside
+Palette: 5
+EffectColorA: 18
+EffectColorB: 7
+Effects: LightRain-0-30-30, Lightning-0.3913043-291-74, ElectricDeath-0.1521739-21-88, GreenSparks-0.4021739-459-5, 
+PlacedObjects: LightSource><975.7302><537.135><1~Environment~239~59~50~86.60254~0~0~None~0~0, CycleDrainMax><1526.285><248.3274><, CycleDrainMax><1457.576><137.8493><, CycleDrainMax><501.4244><173.5649><, WaterFallDepth><488.9592><841.8019><99.07471~-283.9338~4~0.4782589~0.2175452~S~-0.00402832~0, WaterFallDepth><1388.802><807.0176><-271.9974~-568.9995~10~0.3152172~0.2434783~S~0~0, LightSource><159.8644><473.1672><1~Environment~121~-92~-101~166.6026~0~0~None~0~1, CycleDrainMax><1436.825><264.096><, WaterNut><293.3837><571.5873><7~-132~2~3, WaterNut><262.6405><561.1674><21~-224~2~3, WaterNut><179.1923><565.8085><0~0~2~3, 
+AmbientSounds: OMNI><AM_IND-Warehouse01.ogg><475.5585><533.5575><0.5><1, SPOT><SO_IND-Fridge.ogg><389.6179><449.3499><0.5><1><1003.645><513.3472><-235.3553><-243.3553><0><0.404348, 
+FadePalette: 17, 0.7065217, 0.4021739

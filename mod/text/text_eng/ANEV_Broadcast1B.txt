@@ -1,0 +1,24 @@
+0-TR_Broadcast1B
+[LIVE BROADCAST (LONGRANGE)] - PRIVATE NAME PENDING, Quelling Tribute
+TR: You won't believe it! There's been news about the whole conundrum.
+QT: Tell me!
+TR: Good news is, Moon has finally managed to send out a broadcast to the group.
+TR: Bad news is, the broadcast itself.
+TR: I will forward it to you.
+== FORWARDED BROADCAST ==
+[LIVE BROADCAST] (Announcement) Big Sis Moon to Local Group
+---
+QT: Oh...
+QT: So Five Pebbles is the culprit of all this? Why? What did he have against Moon to do such a thing?
+TR: Don't immediately jump to conclusions, this is likely just the outcome of a terriale accident.
+TR: He's young, sporadic and foolish.
+TR: Whatever he has done, probably had not enough thought to properly calculate the risk.
+QT: True, but... Causing your neighbor, and big sister, to die because of a mistake still makes him accountable?
+TR: Fair point, but how do you suppose we even hold him accountable?
+TR: Even if he comes back up into contact, he can just as easily go back into his safe bubble and stay silent forever.
+QT: True... Either way, Moon was your group's senior. What's gonna happen now that she's gone?
+TR: Hell if i know, honestly. I guess we'll just have to manage ourselves, or appoint a new senior.
+TR: Not that it matters that much, considering the condition of the network equipment...
+QT: What do you suppose we do to stay in contact after it goes out?
+TR: For short range, i suppose training a purposed organism for a mailman might work.<LINE>For the scale of inter-group links, i have doubts it is practical.
+QT: ...Or just die of boredom.

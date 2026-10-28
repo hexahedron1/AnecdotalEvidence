@@ -1,0 +1,4 @@
+Template: tr_settingstemplate_intake
+Effects: GreenSparks-0.2065217-278-9, 
+AmbientSounds: OMNI><AM_WAT-Sea01.ogg><115.9224><532.1843><0.1086956><1, 
+FadePalette: 5, 0.6413044, 0.6413044, 0.6413044

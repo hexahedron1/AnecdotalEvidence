@@ -1,0 +1,5 @@
+Template: tr_settingstemplate_memcon
+Effects: SSSwarmers-0-20-20, Bloom-0-30-30, 
+PlacedObjects: LightFixture><207.6646><531.3635><RedLight~17.32051~-10~51, LightFixture><470.769><349.3009><RedLight~-200.6795~40~95, LightFixture><834.9478><347.5303><RedLight~17.32051~-10~78, LightFixture><25.076><188.435><RedLight~17.32051~-10~64, SuperStructureFuses><128.9016><352.6196><65~141, SuperStructureFuses><652.0535><371.287><116~77, 
+AmbientSounds: OMNI><SO_SFX-Data2.ogg><716.9232><473.6001><0.5><1, 
+FadePalette: 10, 1

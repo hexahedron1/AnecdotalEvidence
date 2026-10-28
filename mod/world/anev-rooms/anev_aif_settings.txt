@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.6226768
+WaveLength: 0.9386616
+WaveAmplitude: 0.00135789
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.5
+Palette: 27
+EffectColorA: 15
+EffectColorB: 10
+Effects: LightBurn-0.6413044-20-20, ZeroG-0.1521739-44-126, BrokenZeroG-0.6195652-34-74, Coldness-0.6630435-333-50, 
+PlacedObjects: SnowSource><452.8213><71.83984><Radial~-13~104~-276~136.6025~0.2944986~1, SnowSource><480.3033><59.53662><None~311~21~12~389.6025~0.1304348~0, SnowSource><716.0736><76.0943><Radial~0~100~140.9999~94.60255~0.532882~1, ClimbableRope><601.3148><667.776><48^-191, SteamPipe><520.3901><874.5947><55~28, LightFixture><160.5587><1319.308><RedLight~-64.6795~44~94, LightFixture><521.9246><1060.653><RedLight~157.4355~276.5151~9, LightFixture><855.6653><1169.495><RedLight~35.73816~-191.7607~10, LightFixture><199.0623><897.1898><RedLight~-312.6795~110~8, LightFixture><907.7921><390.3033><RedLight~-96.6795~60~31, LightFixture><500.4594><665.7778><RedLight~-584.6795~-173~3, LightFixture><718.5178><-2.482315><RedLight~17.32051~-10~64, LightFixture><80.6593><448.1783><RedLight~17.32051~-10~13, LightFixture><261.5128><-9.676899><RedLight~17.32051~-10~56, SteamPipe><508.3294><664.8544><9~-91, SnowSource><521.7129><780.069><Radial~13~447~50~86.60254~0.3311515~1, SteamPipe><685.8084><1262.395><0~4, SteamPipe><754.065><1105.924><-40~-46, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><719.1802><517.8368><0.5><1, OMNI><AM_IND-SuperStructure.ogg><451.7359><388.9495><0.3478261><0.7065217, SPOT><SO_SFX-DataTrans2.ogg><746.9453><373.0432><0.3043478><0.3934783><500.9224><367.9526><-283.3553><-329.3553><0><0.5347828, OMNI><AM_ENV-SubTerr.ogg><548.8018><498.7233><0.1847826><1, 
+FadePalette: 10, 0.4782609, 0.5434783

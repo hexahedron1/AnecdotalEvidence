@@ -5,7 +5,7 @@ using UnityEngine;
 using Watcher;
 using static Pom.Pom;
 
-namespace TestIterator;
+namespace AnecdotalEvidence;
 
 public class Objects {
     public static void Register() {
@@ -157,7 +157,7 @@ public class GateLight : UpdatableAndDeletable {
         };
         room.AddObject(light);
         room.AddObject(flatLight);
-        rainbow = Options.rainbowLight.Value && Random.Range(0, 100) < 50;
+        rainbow = Options.rainbowLight.Value && Random.Range(0, 100)  == 0;
     }
     private readonly PlacedObject PlacedObject;
     private int t => room.game.timeInRegionThisCycle;

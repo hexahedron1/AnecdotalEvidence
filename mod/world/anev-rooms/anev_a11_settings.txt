@@ -1,0 +1,9 @@
+DangerType: None
+Clouds: 0
+Grime: 0
+RandomItemDensity: 0
+RandomItemSpearChance: 0
+Effects: DayNight-1-304-72, 
+PlacedObjects: GateLight><2288.072><274.907><100~50~True~0~Static, GateLight><2288.598><391.9238><100~50~False~0~Static, GateLight><2115.58><276.5665><100~50~False~0~Static, GateLight><2117.418><392.8582><95~50~False~0~Static, GateLight><1924.897><392.3851><100~50~False~0~Static, GateLight><1750.339><392.5709><100~50~False~0~Static, GateLight><1575.243><393.6999><100~50~True~0~Static, GateLight><1388.196><391.9598><100~50~False~0~Static, GateLight><1210.437><390.9289><100~50~False~0~Static, GateLight><1925.854><275.6129><100~50~False~0~Static, GateLight><1750.909><275.3711><100~50~True~0~Static, GateLight><1575.02><273.699><100~50~False~0~Static, GateLight><1388.049><275.4439><100~50~True~0~Static, GateLight><1209.598><274.8798><100~50~False~0~Static, GateLight><1024.674><273.9011><100~50~False~0~Static, GateLight><847.9379><275.1901><100~50~False~0~Static, GateLight><672.6617><275.8824><100~50~False~0~Static, GateLight><671.0825><390.6822><100~50~False~0~Static, GateLight><848.1908><392.19><100~50~True~0~Static, GateLight><1023.568><392.4381><100~50~False~0~Static, DayNightSettings><3210.862><290.0842><5~8.660254~42~33, ExitSymbolHidden><368.0727><453.4074><, SteamPipe><1031.551><106.4827><0~100, SteamPipe><1570.222><109.552><0~100, SteamPipe><1750.699><109.0175><0~100, SteamPipe><2109.042><107.0544><0~100, CustomDecal><234.8003><408.7394><4~53~84~69~97~17~131~-50~0~0~1~scavmark arrow~1~0.3586957~1~0.3586957~1~0.3586957~1~0.3586957, CustomDecal><2973.697><249.2142><-14~229~378~228~384~0~-300~28~0.6521739~1~0~lc_scavmarks5~1~0~1~0~1~0~1~0, 
+AmbientSounds: OMNI><AM_ENV-WallHum.ogg><180.6273><421.0958><0><1, OMNI><AM_IND-SuperStructure.ogg><68.60419><329.8869><0><1, OMNI><AM_ENV-NatWind.ogg><178.5294><524.6978><0><1, OMNI><AM_ENV-LightWind.ogg><484.9229><513.8154><0.3152174><1, 
+FadePalette: 30, 0.9021739, 0.8369565, 0.75

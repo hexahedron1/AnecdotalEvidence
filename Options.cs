@@ -1,6 +1,6 @@
 using Menu.Remix.MixedUI;
 
-namespace TestIterator;
+namespace AnecdotalEvidence;
 
 public class Options : OptionInterface {
     public static Configurable<bool> infocardFlash;
@@ -11,12 +11,12 @@ public class Options : OptionInterface {
     public static Configurable<bool> rainbowLight;
     
     public Options() {
-        infocardFlash = config.Bind("testiterator_infocardFlashOption", true,
+        infocardFlash = config.Bind("anecdotalevidence_infocardFlashOption", true,
             new ConfigurableInfo("Enables info card flashing for unknown objects"));
-        sillyMode = config.Bind("testiterator_sillyModeOption", true);
-        sisyphus = config.Bind("testiterator_sisyphusOption", true, new ConfigurableInfo("Saint only, 10% chance"));
-        bombDetachment = config.Bind("testiterator_bombDetachmentOption", true, new ConfigurableInfo("Always available"));
-        rainbowLight = config.Bind("testiterator_rainbowLightOption", true, new ConfigurableInfo("1% chance"));
+        sillyMode = config.Bind("anecdotalevidence_sillyModeOption", true);
+        sisyphus = config.Bind("anecdotalevidence_sisyphusOption", true, new ConfigurableInfo("Saint only, 10% chance"));
+        bombDetachment = config.Bind("anecdotalevidence_bombDetachmentOption", true, new ConfigurableInfo("Always available"));
+        rainbowLight = config.Bind("anecdotalevidence_rainbowLightOption", true, new ConfigurableInfo("1% chance"));
     }
 
     public override void Initialize() {

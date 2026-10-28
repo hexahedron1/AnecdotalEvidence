@@ -1,0 +1,6 @@
+Template: tr_settingstemplate_underhang
+Palette: 36
+Effects: Fog-0.8043478-216-51, HeatWave-0.8043478-472-231, ElectricDeath-0-30-30, 
+PlacedObjects: LightFixture><613.2025><150.2595><RedLight~197.3195~-65.99858~52, LightFixture><542.1781><619.9072><RedLight~17.32051~-10~22, LightFixture><238.1212><258.3402><RedLight~17.32051~-10~5, 
+AmbientSounds: OMNI><SO_IND-HeatDuct.ogg><713.9144><396.3639><0.6086956><1, 
+FadePalette: 17, 0.9239131

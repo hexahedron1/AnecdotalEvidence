@@ -1,0 +1,4 @@
+Template: tr_settingstemplate_intake-inside
+DangerType: None
+PlacedObjects: ShelterSpawnPoint><407.4232><254.5999><, CycleDrainMax><526><204.3206><, CycleDrainMax><529><139.2582><, CycleDrainMax><468.3646><232.6028><, 
+FadePalette: 10, 0.423913

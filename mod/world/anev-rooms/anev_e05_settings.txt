@@ -1,0 +1,4 @@
+Template: tr_settingstemplate_underhang
+PlacedObjects: LightFixture><909.1533><563.9999><RedLight~17.32051~-10~38, LightFixture><560.0281><896.5221><RedLight~17.32051~-10~10, LightFixture><845.3664><1105><RedLight~17.32051~-10~35, LightFixture><86.81827><1210.006><RedLight~17.32051~-10~60, LightFixture><113.1214><308.3086><RedLight~17.32051~-10~75, LightFixture><652.6129><142.8512><RedLight~17.32051~-10~28, DangleFruit><666.6514><844.1743><-90.18378~144.8218~2~3, DangleFruit><689.6089><848.6046><152~77~2~3, 
+Triggers: PreRegionBump<tA>event<tB>MusicEvent<eA>songName<eB>bm_sh_crypts<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>698.9389<tB>235.8157<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>, 
+FadePalette: 17, 0.9021739, 0.9021739

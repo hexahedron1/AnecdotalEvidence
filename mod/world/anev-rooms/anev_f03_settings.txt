@@ -1,0 +1,8 @@
+Template: tr_settingstemplate_intake
+DangerType: Rain
+EffectColorA: 19
+EffectColorB: 6
+Effects: Lightning-0.7065217-262-67, GreenSparks-0.8586956-33-1, ElectricDeath-0.5-43-136, 
+PlacedObjects: LightFixture><207.3368><382.8198><RedLight~-135.6795~77~47, LightFixture><330.6803><741.5698><RedLight~17.32051~-10~24, LightBeam><842.1954><412.9349><1064~249~1086~231~691~-436~280.4192~-99.7652~0.2135162~0.8381348~0.173913~0~None~0.02173117~0, LightSource><1921.697><656.9677><1~White~-118~-11~-484.0027~-91.39313~0~1~None~0~0, WaterSpout><672.4603><545.2924><10~-90~12.82538~1~-44^-6, WaterNut><942.5739><209.6618><-108.0464~70.04686~2~3, WaterNut><918.3021><184.8069><-285.9998~10.00018~2~3, 
+AmbientSounds: OMNI><AM_RAIN-QuietThunder.ogg><56.97046><436.9478><0.75><1, SPOT><AM_IND-50hz.ogg><586.8003><341.5111><0.5><1><1918.653><658.603><-91.35535><-132.3553><0><0.4152175, 
+FadePalette: 17, 0.9021739, 0.8043478

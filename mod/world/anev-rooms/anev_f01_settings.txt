@@ -1,0 +1,4 @@
+Template: tr_settingstemplate_intake
+Clouds: 0.3043478
+PlacedObjects: CycleDrainMax><362.1876><1586.819><, CycleDrainMax><420.5638><1653.061><, CycleDrainMax><399.1335><2061.899><, CycleDrainMax><446.4392><1936.315><, CycleDrainMax><349.1259><1978.344><, CycleDrainMax><498.9487><1819.272><, 
+FadePalette: 5, 0.6413044, 0.6413044, 0.6413044

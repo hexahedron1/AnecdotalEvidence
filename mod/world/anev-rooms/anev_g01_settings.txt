@@ -1,0 +1,9 @@
+DangerType: None
+RainIntensity: 0
+Clouds: 0
+Palette: 30
+EffectColorA: 5
+Effects: DayNight-1-272-128, 
+PlacedObjects: ClimbableRope><4498.883><542.6622><27^-273, DayNightSettings><5264.917><603.3895><5~8.660254~42~33, GateLight><5416.547><373.8056><-384~89~False~0~Static, GateLight><5414.289><256.0539><-343~39~False~0~Static, GateLight><726.8958><254.8631><100~50~False~0~Static, GateLight><724.8567><372.6105><100~50~True~0~Static, CustomDecal><5743.189><275.4406><-11~68~174~70~185~-5~-217~82~0.2717391~0.5108696~1~scavmark wingedorb~1~0.3043478~1~0.3043478~1~0.3043478~1~0.3043478, CustomDecal><276.8111><259.6842><1~111~110~106~106~1~606~146~0.1956522~0.5543478~0~scavmark cross~1~0~1~0~1~0~1~0, ExitSymbolHidden><4512.115><569.3362><, CustomDecal><5700.108><279.6408><-11~71~67~67~67~-6~-450~-157~0.326087~0.3586957~0~scavmark circle~1~0~1~0~1~0~1~0, LanternOnStick><5928.671><309.1837><-18~-89, CustomDecal><4479.384><81.3367><-126~-9~-122~594~-4~583~317~-111~0.2282609~1~0~scav wedges~1~0~1~0~1~0~1~0, LanternOnStick><563.0916><312.8779><8~-106, LanternOnStick><4477.011><293.0503><-19~-81, LanternOnStick><4730.044><302.5549><17~-102, 
+AmbientSounds: OMNI><AM_ENV-WallHum.ogg><180.6273><421.0958><0><1, OMNI><AM_IND-SuperStructure.ogg><68.60419><329.8869><0><1, OMNI><AM_ENV-NatWind.ogg><178.5294><524.6978><0><1, OMNI><AM_ENV-LightWind.ogg><704.1993><522.9838><0.3152174><1, SPOT><AM_IND-Utility01.ogg><721.3605><475.1667><0.5><1><332.3605><311.1667><-64.35535><-84.35535><0><0.2086958, 
+FadePalette: 19, 1, 0.9021739, 0.8043478, 0.7065217, 0.5543478, 0.4021739

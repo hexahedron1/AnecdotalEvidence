@@ -1,7 +1,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace TestIterator;
+namespace AnecdotalEvidence;
 using EffExt;
 
 public static class Effects {

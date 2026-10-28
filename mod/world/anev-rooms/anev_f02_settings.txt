@@ -1,0 +1,8 @@
+Template: tr_settingstemplate_intake-inside
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.02608516
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+PlacedObjects: CycleDrainMax><408.8977><351.6151><, CycleDrainMax><389.9487><200.2274><, CycleDrainMax><359.0397><229.946><, CycleDrainMax><372.9186><503.6077><, 
+FadePalette: 10, 0.423913

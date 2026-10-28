@@ -1,0 +1,9 @@
+DangerType: None
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 0
+Palette: 30
+Effects: DayNight-1-276-142, 
+PlacedObjects: ElectricGateData><477.2517><582.2><-411~-247~True~False~False~True~True~True~True~False~0~1~False~0~1~0.5, DayNightSettings><844.6563><631.6251><5~8.660254~42~33, ExitSymbolHidden><224.8237><103.8141><, CustomDecal><685.818><156.9381><-4~182~164~188~174~2~166~-130~0.3152174~1~1~lc_entrymarksb~1~0.1195652~1~0.1195652~1~0.1195652~1~0.1195652, LanternOnStick><181.9668><293.9472><21~-164, CustomDecal><190.7><170.2539><4~73~-79~87~-76~7~53~98~0.3043478~0.6739131~1~scavmark arrow~1~0.08695652~1~0.08695652~1~0.08695652~1~0.08695652, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><178.5294><524.6978><0><1, OMNI><AM_ENV-WallHum.ogg><180.6273><421.0958><0><1, OMNI><AM_ENV-LightWind.ogg><751.2227><523.5519><0.3152174><1, OMNI><AM_IND-SuperStructure.ogg><68.60419><329.8869><0><1, 
+FadePalette: 30, 0.2717391
