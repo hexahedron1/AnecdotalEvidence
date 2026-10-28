@@ -11,6 +11,7 @@ using EffExt;
 namespace AnecdotalEvidence;
 
 [BepInPlugin(GUID, Name, Version)]
+[BepInDependency("hexahedron1.liboracle")]
 sealed class Plugin : BaseUnityPlugin
 {
     public new static ManualLogSource Logger;
